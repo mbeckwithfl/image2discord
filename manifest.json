@@ -1,5 +1,5 @@
 {
-    "name": "Image2Discord",
+    "name": "List Test",
     "description": "Send images to discord",
     "version": "1.0",
     "manifest_version": 3,
@@ -9,8 +9,9 @@
         "default_title": "Image2Discord", 
         "default_popup": "popup.html"  
         }
-    },
-
+   
+    }, 
+    "options_page": "options.html",
     "permissions": [
         "contextMenus",
         "storage",
@@ -19,5 +20,4 @@
     "action": {
         "default_popup": "popup.html"
       }
-    
-    }
+}
