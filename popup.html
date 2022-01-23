@@ -4,13 +4,29 @@
 <title>Page Title</title>
 </head>
 <body>
-<h2>Image2Discord Settings</h2>
+<h1>Image2Discord Settings</h1>
+
+<h2>Add Channel:</h2>
 <form>
   <input type="text" id="channelname" name="Channel name" required placeholder="Channel Name" autocomplete="off">
+  <br><br>
   <input type="text" id="webhookurl" name="Webhook URL" required placeholder="Webhook URL" autocomplete="off">
-  <button type="button" id="storechannel">Link Channel</button>
+  <br><br>
+  <button type="button" id="storechannel">Add Channel</button>
   <script src="storechannel.js"></script>
 </form>
+
+<h2>Remove Channel:</h2>
+
+<input type="text" id="webhookforRemoval" name="Webhook URL" required placeholder="Webhook of channel" autocomplete="off">
+<br><br>
+<button type="button" id="removeonechannel">Remove channel</button>
+<br><br>
+<button type="button" id="removeallchannels">Remove all channels</button>
+<br><br>
+<script src="removechannels.js"></script>
+
+
 <br><a href="https://github.com/mbeckwithfl/image2discord" target="_blank">Source Code</a><br>
 </body>
 </html>

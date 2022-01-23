@@ -1,6 +1,6 @@
 {
-    "name": "List Test",
-    "description": "Send images to discord",
+    "name": "Image2Discord",
+    "description": "Send images to Discord",
     "version": "1.0",
     "manifest_version": 3,
     "background": {
