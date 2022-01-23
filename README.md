@@ -1,4 +1,7 @@
 # image2discord
+
+****Currently under Chrome Webstore review
+
 Right click an image in Chrome and send to user-defined Discord channel via webhook.
 This was inspired by the problem of constantly right clicking, saving, manually uploading, and then deleting image files from the Web after sending them. 
 This Chrome extension simplifies & automates the process of sharing images with friends & co-workers on Discord. 
