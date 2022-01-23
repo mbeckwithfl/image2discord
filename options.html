@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Image2Discord</title>
+<title>Image2Discord Settings</title>
 </head>
 <body>
 <h1>Thanks for using Image2Discord!</h1>
-
-<h2>To remove a channel from the context menu, please use this form:</h2>
-
-<input type="text" id="webhookforRemoval" name="Webhook URL" required placeholder="Webhook URL" autocomplete="off">
+<h2>Add Channel:</h2>
+<input type="text" id="channelname" name="Channel name" required placeholder="Channel Name" autocomplete="off">
+<br><br>
+<input type="text" id="webhookurl" name="Webhook URL" required placeholder="Webhook URL" autocomplete="off">
+<br><br>
+<button type="button" id="storechannel">Add Channel</button>
+<script src="storechannel.js"></script>
+<br><br>    
+<h2>Remove Channel:</h2>
+<input type="text" id="webhookforRemoval" name="Webhook URL" required placeholder="Webhook of channel" autocomplete="off">
 <script src="removechannels.js"></script>
 <br><br>
-<form>
-    <button type="button" id="removeonechannel">Remove channel</button>
-    <button type="button" id="removeallchannels">Remove all channels</button>
-    <script src="removechannels.js"></script>
-</form>
-
-<br><a href="https://github.com/mbeckwithfl/image2discord" target="_blank">Source Code</a><br>
-
-
-
+<button type="button" id="removeonechannel">Remove channel</button>
+<script src="removechannels.js"></script>
+<br><br>
+<button type="button" id="removeallchannels">Remove all channels</button>
+<script src="removechannels.js"></script>
+<br><br>
+<br><br>
+<a href="https://github.com/mbeckwithfl/image2discord" target="_blank">Source Code</a>
 </body>
 </html>
