@@ -1,6 +1,6 @@
 # image2discord
 
-****Currently under Chrome Webstore review
+Published in Chrome Web Store! Also works on Edge.
 
 Right click an image in Chrome and send to user-defined Discord channel via webhook.
 This was inspired by the problem of constantly right clicking, saving, manually uploading, and then deleting image files from the Web after sending them. 
