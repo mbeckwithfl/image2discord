@@ -15,7 +15,6 @@
     "permissions": [
         "contextMenus",
         "storage",
-        "scripting"
     ],
     "action": {
         "default_popup": "popup.html"
