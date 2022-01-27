@@ -1,5 +1,5 @@
 function removeOneChannel(){
-    //To remove context menu item, Chrome API needs the MenuItemID of the context menu item from when it was created.
+    //To remove context menu item, Chrome API needs the MenuItemID of the context menu item from when it was created. In this extension, this is always a webhook URL.
     //Input the webhookURL of the channel you want to remove
     const idOfChannel = document.getElementById('webhookforRemoval').value
     chrome.contextMenus.remove(idOfChannel)
