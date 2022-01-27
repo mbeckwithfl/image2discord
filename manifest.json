@@ -1,3 +1,4 @@
+//All Chrome extensions start with a JSON file establishing parameters, permissions, etc. Here, you point the extension toward scripts & image files that are needed.
 {
     "name": "Image2Discord",
     "description": "Send images to Discord",
